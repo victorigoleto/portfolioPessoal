@@ -6,11 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./perfil-lateral.component.css']
 })
 export class PerfilLateralComponent implements OnInit {
-  nome: string;
+
+  nome: string = 'João Victor'
+
   constructor() { }
 
-  ngOnInit(): void {
-    this.nome = 'Victor Rigoleto'
+  ngOnInit() {
   }
-
 }

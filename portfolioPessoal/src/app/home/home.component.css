@@ -34,21 +34,16 @@
     background-size: cover;
     max-height: 100vh;
     max-width: 100vw;
-    animation: pattersAnimation 30s infinite linear;
-    z-index: -1;
-    position: relative;
+    animation: pattersAnimation 100s infinite linear;
   }
 
   @keyframes pattersAnimation {
 	0% {
         background-position: 0 -100vh;
-        opacity: 0;
     }
     10% {
-        opacity: .1;
     }
     100% {
         background-position: 0 100vh;
-        opacity: 0
     }
 }
